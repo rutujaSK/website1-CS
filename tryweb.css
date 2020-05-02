@@ -1,0 +1,99 @@
+/*fonts n background*/
+#mylogo{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 27px;
+	font-style: bold;
+	padding-bottom: auto;
+	color: white;
+	}
+	/*logo shade d606c7*/
+#navoptions{
+font-family: 'Kalam', cursive;
+font-size: 19px;
+margin-right: 50px;
+padding: 10px;
+
+}
+body{
+	 
+	background: url(https://wallpaperplay.com/walls/full/3/2/f/304148.jpg) no-repeat ;
+	background-attachment: fixed;
+	background-position: auto;
+	background-size:cover ;
+	color: black;
+	
+}
+
+
+/*style brand icon*/
+.logo {
+	height: 35px;
+	margin-left: 30px; 
+	padding-top:1px;
+	width: 75px;
+	margin-top: -5px;
+}
+
+/**navigation bar*/
+
+.jumbotron
+{		
+	background-color: transparent;
+	text-align: center;
+	padding: 30px;
+	padding-top: 70px;
+	color: black;
+}
+#h1jumbotron{
+	font-family: 'Cinzel', serif;
+	font-size: 70px;
+}
+#p1{
+	font-family: 'Courgette', cursive;
+}
+#p2{
+	font-family: 'Kaushan Script', cursive ;
+	color: #f073eb;
+	font-style: strong;
+
+}
+.contact {
+	text-align: center;
+	margin-bottom: 100px
+}
+#btn1{
+	background-color: #f589ef;
+	color: black;
+	border:none;
+	font-family: 'Cinzel', serif; 
+	border-radius: 10px;
+	font-size: 20px; padding: 10px 30px;
+	letter-spacing: 1.3px; 
+}
+
+
+#btn1:hover{
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+}
+
+/*limit width of icon section*/
+@media(max-width: 768 px) {
+	#h1jumbotron{
+		height: 70px; 
+	}
+	
+}
+
+	)
+/*style icon*/
+
+/*style icon contact button*/
+
+/*footer*/
+.footer{
+	background-color: rgba(0,0,0,0.9);
+	margin-left: 10px;
+	color: black;
+	font-size:15x; padding: 10px; 
+}
