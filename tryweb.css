@@ -1,0 +1,452 @@
+/*fonts n background*/
+#mylogo{
+	font-style: bold;
+	color: white;
+	text-align:  center;
+	}
+
+#name1{font-family: 'Cinzel', serif; 
+	letter-spacing: 0.1px;
+	font-style: bold;
+	font-size: 30px;
+	/*margin-left: 50px;*/
+	/*logo shade d606c7*/
+}
+#name2{
+	font-family: 'Alex Brush', cursive;
+	/*font-family: 'Courgette', cursive;*//*font-family: 'Sacramento', cursive;*/
+	letter-spacing: 4px;
+	font-size: 30px;
+}
+#name3{
+	font-family: 'Kaushan Script', cursive;}
+
+div {
+	width: 100%;}
+
+body {
+	width: 100%;}
+
+#name4{
+	font-family: 'Alex Brush', cursive;
+	letter-spacing: 1.5px;
+}
+
+#fontcursive{
+	font-family: 'Sacramento', cursive;
+	font-size: 30px;}
+
+
+#navoptions{
+	font-family: 'Sacramento', cursive;
+	font-size: 30px; font-style:  bold;
+    margin-right: 200px;
+}
+
+/* burger menu collapsible*/
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #110;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px
+  font-size: 36px;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 7px ;
+  border: none;
+  
+
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 2px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/*burger menu end*/
+
+body{ 
+	background-attachment: fixed;
+	background-position: center;
+	background-size:cover ;
+	color: black;
+	padding: 1px;
+	width:  100%;
+}
+
+/*glow*/
+.text {
+  background-color: white;
+  color: ;
+  font-size: 7vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  position: absolute;
+   /*top: 50%;*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+/*.glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+*/
+/*@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+*/
+
+#title1{
+			color: black;
+			text-align: center;
+			margin-top: 100px;
+			margin-bottom: 5px;
+			font-family: 'Cinzel', serif;
+			font-size: 60px;
+			padding-top: 50px;
+
+		}
+
+#p1{
+	font-family: 'Courgette', cursive;
+}
+#p2{
+	font-family: 'Kaushan Script', cursive ;
+	color: #f073eb;
+}
+
+
+#btn1{
+	background-color: #f589ef;
+	color: black;
+	border:none;
+	font-family: 'Cinzel', serif; 
+	border-radius: 10px;
+	font-size: 18px; padding: 10px 10px;
+	letter-spacing: 1px; 
+	align-items: center;
+}
+
+/*top button */
+
+#myBtn {
+  display: none;position: fixed;bottom: 20px;
+  right: 30px;z-index: 99;
+  font-size: 18px;
+  background-color:#f589ef;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  background-color: #557;
+}
+
+/*all btn*/
+
+#btn1:hover{
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+	text-align: center;
+}
+/*
+/*glow*/
+/*
+.text {
+  background-color: black;
+  color: black;font-size: 7vw;font-weight: bold;margin: 0 auto;
+  padding: 10px;height: 40%; width:50%;
+  text-align: center;position: absolute;
+  top: 50%;left: 50%;
+  transform: translate(-50%, -50%);mix-blend-mode: screen;}
+.glow {
+  font-size: 30px;
+  /*color: #fff;*/
+  /*text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;*/
+}*/*/
+
+
+/*style icon contact button*/
+
+/*footer*/
+.footer{
+	background-color: rgba(0,0,0,0.9);
+	margin-left: 10px;
+	color: black;
+	text-decoration: black;
+	font-size:15x; padding: 10px; 
+	padding-bottom: 300px;
+}
+
+ img {
+	height: 30px;
+}
+
+.fa {
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  padding-top: 15px;
+}
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+.fa-instagram {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 44px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  /*padding-top: 5px;*/
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  border-radius: 40px;
+  font-size: 20px;
+  line-height: 47px;
+  vertical-align: middle;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  border-radius: 40px;
+  font-size: 20px;
+  line-height: 47px;
+  vertical-align: middle;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  border-radius: 40px;
+  font-size: 20px;
+  line-height: 47px;
+  vertical-align: middle;
+}
+/*index CSS */
+
+ /* Make the image fully responsive */
+  .carousel-inner img {
+
+    width:100%;
+    height: 100%;
+   }
+  
+   #sixcontainer{
+	color: white;
+	}
+
+	#sixcontainer img{
+		float: left;
+		padding: 10px;
+	}
+
+			.thumbnail{
+			padding-top: 20px;
+			margin-top: 50px;
+			height: auto;
+			width: auto;}
+		
+
+				.thumbnail p {
+				font-family: 'Roboto', sans-serif;
+				text-align: center;}
+
+		.thumbnail h3 {
+			font-family: 'Girassol', cursive;
+			font-style: bold;
+			text-align: center;}
+
+		.thumbnail img{
+			height: 90px;
+			width: 80px;
+		}
+
+		.centered {
+ 		 position: absolute;
+ 		 top: 50%;
+ 		 left: 50%;
+ 		 transform: translate(-50%, -50%);
+		}
+		.container {
+ 		 position: relative;
+ 		 text-align: center;
+		 color: white;
+		}
+		/*.centered {
+ 		 position: absolute;
+ 		 top: 50%;
+ 		 left: 50%;
+ 		 transform: translate(-50%, -50%);
+		}
+		.container {
+ 		 position: relative;
+ 		 text-align: center;
+		 color: white;
+		}*/
+		
+
+		
+		.parallax {
+  /* The image used */
+   background-image: url('https://images2.alphacoders.com/598/598609.jpg');
+  
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax p {
+font-size: 22px;
+color: white;
+text-align: center; 
+position: absolute;
+padding-left: 350px;
+padding-top: 100px;
+}
+
+
+#img2 {
+ background-image: url('https://images.alphacoders.com/653/653606.jpg');
+  height: 100%; width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+		
+
+       #title1{
+			color: black;
+			text-align: center;
+			font-family: 'Cinzel', serif;
+			font-size: 60px;
+			font-style: bold;
+
+
+		}
+		.carousel-inner {
+			padding-top: 50px;
+		}
+		#btn1 {
+			text-align: center;
+		}
+		
+
+.clearfix {
+  overflow: auto;
+}
+
+
+.image-container {
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  text-align: center;
+}
+.container .btn {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
